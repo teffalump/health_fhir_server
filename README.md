@@ -63,3 +63,7 @@ Flask-Tryton should automatically find and parse the Tryton config file. If it i
     server/config.py
     ----------------
     TRYTON_CONFIG = ''      # Set this to the path of the Tryton configuration file (e.g., '/weird/tryton/weird-tryton.conf')
+
+#### No database with that name
+
+This is related to the previous error, and occurs when Flask-Tryton cannot find the Tryton config file. Following the previous procedure should hopefully fix it.

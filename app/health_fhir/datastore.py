@@ -14,3 +14,5 @@ def dumb_url_generate(args):
         string (e.g., /Patient/test-3)
     """
     return ''.join(['/{0}/'.format(args[0]), '-'.join(map(str, args[1:]))])
+
+__all__=['find_record', 'dumb_url_generate']

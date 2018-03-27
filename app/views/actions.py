@@ -6,7 +6,7 @@ import lxml
 import sys
 
 class SearchRecords:
-    
+
     def __init__(self, endpoint, request):
         if endpoint not in mappings:
             raise ValueError('Incorrect endpoint')

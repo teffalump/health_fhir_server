@@ -1,6 +1,4 @@
-### README
-
-Expect frequent changes. Unfortunately.
+<del>Expect frequent changes. Unfortunately.
 
 The bulk of heavy-lifting will be handled care by generated code. The FHIR standard **will** change. However, they do publish XML schema documents that define the standards. Luckily, there are python libraries that can turn these schema documents into python classes. Consequently, if we separate our own code from these changing standards, we can write quasi-forward-compatible code.
 
@@ -35,4 +33,6 @@ What needs to be done:
 
 - Testing (Work-in-progress)
 - More endpoints
-- Version support
+- Version support</del>
+
+I'll update this at some point. Been a couple years. Haha.

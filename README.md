@@ -30,10 +30,10 @@ The server ships with a simple production config file. However, it needs to be e
     SECRET_KEY = ''         # Set this value to a long and random string
 
 There are other options available for Flask and its addons:
-* [Flask](http://flask.pocoo.org/docs/0.10/config/)
+* [Flask](http://flask.pocoo.org/docs/latest/)
 * [Flask-Login](https://flask-login.readthedocs.org/en/latest/)
 * [Flask-Tryton](https://code.google.com/p/flask-tryton/)
-* [Flask-Restful](http://flask-restful.readthedocs.org/en/latest/quickstart.html)
+* [Flask-Restful](http://flask-restful.readthedocs.org/en/latest/)
 * [Flask-WTF](https://flask-wtf.readthedocs.org/en/latest/)
 
 ### Security
